@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-      title: 'Flutter Demo',
+      title: '🦊 Clever Fox',
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
@@ -22,18 +22,14 @@ class _HomeState extends State<Home> {
         body: Column(
       children: <Widget>[
         Container(
-          height: MediaQuery.of(context).size.height / 3,
-          width: MediaQuery.of(context).size.width,
-          color: Colors.orange,
-          child: Column(
-            children: <Widget>[Padding(
-                padding: EdgeInsets.only(bottom: 10.0),
-                child: Text(
-                  ''
-              )
-             )],
-          )
-        ),
+            height: MediaQuery.of(context).size.height / 3,
+            width: MediaQuery.of(context).size.width,
+            color: Colors.orange,
+            child: Column(
+              children: <Widget>[
+                Padding(padding: EdgeInsets.only(bottom: 10.0), child: Text(''))
+              ],
+            )),
       ],
     ));
   }

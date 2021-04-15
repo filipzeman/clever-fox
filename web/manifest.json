@@ -1,6 +1,6 @@
 {
-    "name": "wordpair_generator",
-    "short_name": "wordpair_generator",
+    "name": "clever_fox",
+    "short_name": "clever_fox",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
