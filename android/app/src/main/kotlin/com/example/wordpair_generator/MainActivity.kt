@@ -1,4 +1,4 @@
-package com.example.wordpair_generator
+package com.example.clever_fox
 
 import io.flutter.embedding.android.FlutterActivity
 
